@@ -1,0 +1,17 @@
+// Hola mundo.cpp : Defines the entry point for the console application.
+// Autor: E.Suarez
+// Fecha: 
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+
+
+{
+	cout<<"Hola mundo";
+	getch();
+}
