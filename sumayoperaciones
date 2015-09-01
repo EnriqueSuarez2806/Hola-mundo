@@ -1,0 +1,32 @@
+// sumayoperaciones.cpp : Defines the entry point for the console application.
+// Autor: Jose Enrique Suarez
+// Fecha: 01/09/2015
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int main(){
+   // Se declaran las variables
+   int a,b,c,d,e;
+   float f;
+   int g;
+   // Se ingreasa numero a las variables
+   cout <<"ingrese el primer numero"<< endl;
+   cin >> a;
+   cout <<"ingrese el segundo numero"<< endl;
+   cin >> b;
+   //Imdica las operaciones que se efectuan las variables
+   c = a+b;//suma
+   d = a-b;//resta
+   e = a*b;//multiplicacion
+   f = a/b;//division
+   g = a%b;//residuo
+   //Se indican los resultadoas de cada operacion
+   cout <<"la suma; " << c << endl;
+   cout <<"la resta es; " << d << endl;
+   cout <<"la multiplicacion es; " << e << endl;
+   cout <<"la division es; " << f << endl;
+   cout <<"el residuo es; " << g << endl;
+   getch();
+   return 0;
+}
