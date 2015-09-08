@@ -1,0 +1,21 @@
+// cuando un ciudadano puede votar.cpp : Defines the entry point for the application.
+// Autor: Jose Enrqiue Suarez 
+// Fecha: 08/09/15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	int a;
+	cout<< "ingrese su edad";
+    cin>> a;
+	if (a>=18)
+		cout<< "habilitado para votar";
+	else
+	    cout<< "no esta habilitado para votar";
+    getch();
+}
