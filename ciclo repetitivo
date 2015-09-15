@@ -1,0 +1,25 @@
+// ciclorepetitivo.cpp : Defines the entry point for the console application.
+// Autor: Jose Enrique Suarez
+// Fecha: 15/09/2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	float b,h,n,a;
+	cout<< "ingrese los triangulos a calcular: "<<endl;
+    cin>> n;
+	for(int i=0; i<n; i++)
+	{ 
+	  cout<< "ingrese la base y altura: "<<endl;
+	  cin>>b;
+	  cin>>h;
+	  a=(b*h)/2;
+	  cout<< "el area es: "<<a<<endl;
+
+    }
+	getch();
+}
+
