@@ -1,0 +1,30 @@
+// Ejercicio de examen.cpp : Defines the entry point for the console application.
+// Fecha: 29/09/2015
+// Autor: Jose Enrqiue Suarez
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main ()
+{
+	int n;
+	float h,j ;
+	cout<<"Ingrese el numero de empleados"<< endl;
+	cin>> n;
+	h=0;
+	  for (int i=1; i<=n; i++)
+		  {
+		    cout<<"Ingrese el sueldo de la persona "<<i<<endl;
+			cin>> j;
+			if(j>=2*1656)
+			{
+			   h=h+j*0.13;
+			   cout<<"El Impuesto a pagar por la persona "<< i <<"es Bs: "<< j*0.13<<endl<<endl;
+            }
+			else 
+			   cout<<"El impuesto a pagar por la persona "<< i <<"es Bs: 0"<<endl<<endl;
+}
+cout<<"El impuesto a pagar del conjunto de personas es: "<< h <<"BS:";
+getch();
+}
